@@ -3,7 +3,7 @@
 
 > **Course:** CSE425 
 > **Institution:** BRAC University | Department of Computer Science & Engineering
-
+## N.B: All files including models training and evaluation are in the notebooks together. 
 ---
 
 ## 👥 Group Members
