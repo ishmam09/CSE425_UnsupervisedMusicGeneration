@@ -86,12 +86,14 @@ music-generation-unsupervised/
 │   └── evaluation_metrics.ipynb   
 │
 ├── src/
-│   ├── config.py                      
+│   ├── config.py
+|   ├── data/
+|   └──models_saved/                      
 │                   
 ├── outputs/
 │   ├── generated_midis/               
 │   ├── plots/                         
-│   ├── evaluation_metrics&survey_results/          
+│   └── evaluation_metrics&survey_results/          
 │
 └── report/
     ├── final_report.pdf  
