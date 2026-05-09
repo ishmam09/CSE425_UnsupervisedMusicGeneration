@@ -296,6 +296,6 @@ midi2audio>=0.1.1
 
 ## 📬 Contact
 
-For questions about this project, contact any group member via syed.azmain.ishmam@g.bracu.ac.bd or mahbud.alfuad.rubai@g.bracu.ac.bd 
+For questions about this project, contact any group member via syed.azmain.ishmam@g.bracu.ac.bd or mahmud.alfuad.rubai@g.bracu.ac.bd 
 
 ---
