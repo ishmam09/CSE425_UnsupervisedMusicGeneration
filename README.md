@@ -49,7 +49,7 @@ All generated MIDI files are publicly available on Google Drive:
 | Task 3: Transformer | `task3_transformer_1.mid` - `task3_transformer_10.mid` | Long coherent compositions |
 | Task 4: RLHF | `task4_rlhf_1.mid` - `task4_rlhf_10.mid` | Human-preference aligned outputs |
 
-> 💡 **To listen:** Drag any `.mid` file into [Signal MIDI Player](https://signal.vercel.app/edit) — free, browser-based, shows piano roll visualization.
+> 💡 **To listen:** Drag any `.mid` file into [Signal MIDI Player](https://signal.vercel.app/edit) - free, browser-based, shows piano roll visualization.
 
 ---
 
