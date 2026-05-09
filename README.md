@@ -3,7 +3,7 @@
 
 > **Course:** CSE425 
 > **Institution:** BRAC University | Department of Computer Science & Engineering
-## N.B: All files including models, training and evaluation of src is in the are in the notebooks folder together. We did not create files separately we used different cells in Colab to do the project. Thank you.
+## N.B: All files including models, preprocessing, training, evaluation and generation of src is in the notebooks folder together. We did not create files separately we used different cells in Colab to do the project. Thank you.
 ---
 
 ## 👥 Group Members
@@ -83,33 +83,19 @@ music-generation-unsupervised/
 │   ├── 04_task2_vae.ipynb             
 │   ├── 05_task3_transformer.ipynb     
 │   ├── 06_task4_rlhf.ipynb           
-│   └── 07_evaluation_metrics.ipynb   
+│   └── evaluation_metrics.ipynb   
 │
 ├── src/
 │   ├── config.py                      
-│   ├── preprocessing/
-│   │   ├── midi_parser.py             
-│   │   └── piano_roll.py              
-│   ├── models/
-│   │   ├── autoencoder.py            
-│   │   ├── vae.py                     
-│   │   └── transformer.py            
-│   ├── training/
-│   │   ├── train_ae.py                
-│   │   ├── train_vae.py              
-│   │   └── train_transformer.py       
-│   └── evaluation/
-│       └── metrics.py                
-│
+│                   
 ├── outputs/
 │   ├── generated_midis/               
 │   ├── plots/                         
-│   ├── evaluation_metrics_all_files.csv    
-│   ├── evaluation_summary_table.csv        
-│   └── FINAL_results_table.csv             
+│   ├── evaluation_metrics&survey_results/          
 │
 └── report/
-    └── final_report.pdf              
+    ├── final_report.pdf  
+    └── references.bib
 ```
 
 ---
