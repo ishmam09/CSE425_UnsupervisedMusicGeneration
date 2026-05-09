@@ -3,7 +3,7 @@
 
 > **Course:** CSE425 
 > **Institution:** BRAC University | Department of Computer Science & Engineering
-## N.B: All files including models, preprocessing, training, evaluation and generation of src is in the notebooks folder together. We did not create files separately we used different cells in Colab to do the project. Thank you.
+## N.B: All files including preprocessing, training, evaluation and generation of src is in the notebooks folder together. We did not create files separately we used different cells in Colab to do the project. Thank you.
 ---
 
 ## 👥 Group Members
