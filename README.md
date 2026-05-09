@@ -41,13 +41,13 @@ All generated MIDI files are publicly available on Google Drive:
 
 | Model | Files | Description |
 |-------|-------|-------------|
-| Random Generator | `baseline_random_1.mid` – `baseline_random_5.mid` | Random pitch/duration sampling |
-| Markov Chain | `baseline_markov_1.mid` – `baseline_markov_5.mid` | First-order pitch transition model |
-| Task 1: LSTM AE | `task1_generated_1.mid` – `task1_generated_5.mid` | 8-second window reconstruction |
-| Task 2: VAE | `task2_vae_sample_1.mid` – `task2_vae_sample_8.mid` | Multi-style diverse generation |
-| Task 2: Interpolation | `task2_interpolation_alpha0.00.mid` – `task2_interpolation_alpha1.00.mid` | Latent space morphing between two pieces |
-| Task 3: Transformer | `task3_transformer_1.mid` – `task3_transformer_10.mid` | Long coherent compositions |
-| Task 4: RLHF | `task4_rlhf_1.mid` – `task4_rlhf_10.mid` | Human-preference aligned outputs |
+| Random Generator | `baseline_random_1.mid` - `baseline_random_5.mid` | Random pitch/duration sampling |
+| Markov Chain | `baseline_markov_1.mid` - `baseline_markov_5.mid` | First-order pitch transition model |
+| Task 1: LSTM AE | `task1_generated_1.mid` - `task1_generated_5.mid` | 8-second window reconstruction |
+| Task 2: VAE | `task2_vae_sample_1.mid` - `task2_vae_sample_8.mid` | Multi-style diverse generation |
+| Task 2: Interpolation | `task2_interpolation_alpha0.00.mid` - `task2_interpolation_alpha1.00.mid` | Latent space morphing between two pieces |
+| Task 3: Transformer | `task3_transformer_1.mid` - `task3_transformer_10.mid` | Long coherent compositions |
+| Task 4: RLHF | `task4_rlhf_1.mid` - `task4_rlhf_10.mid` | Human-preference aligned outputs |
 
 > 💡 **To listen:** Drag any `.mid` file into [Signal MIDI Player](https://signal.vercel.app/edit) — free, browser-based, shows piano roll visualization.
 
