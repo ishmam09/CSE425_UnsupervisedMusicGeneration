@@ -183,7 +183,7 @@ Run all notebooks **in this exact order**:
 
 ## 🗂️ Dataset
 
-**MAESTRO v3.0.0** — MIDI and Audio Edited for Synchronous TRacks and Organization
+**MAESTRO v3.0.0** - MIDI and Audio Edited for Synchronous TRacks and Organization
 
 | Property | Value |
 |----------|-------|
@@ -198,20 +198,20 @@ Run all notebooks **in this exact order**:
 
 ## 🧠 Model Architectures
 
-### Task 1 — LSTM Autoencoder
+### Task 1 - LSTM Autoencoder
 - **Encoder:** 2-layer LSTM (hidden=256) → Linear → z ∈ R⁶⁴
 - **Decoder:** z repeated × T → 2-layer LSTM → Linear → logits ∈ R^(128×88)
 - **Loss:** Focal Loss (α=10, γ=2) — handles 97% piano-roll sparsity
 - **Training:** 80 epochs, Adam lr=1e-3, gradient clip=1.0
 
-### Task 2 — Variational Autoencoder
+### Task 2 - Variational Autoencoder
 - **Encoder:** 2-layer LSTM → [fc_mu, fc_log_var] → μ, log σ² ∈ R⁶⁴
 - **Reparameterization:** z = μ + σ ⊙ ε, ε ~ N(0,I)
 - **Loss:** L_VAE = L_recon + β·D_KL
 - **KL Annealing:** β: 0 → 1.0 linearly over first 30 epochs
 - **Training:** 100 epochs, Adam lr=1e-3
 
-### Task 3 — Decoder-Only Transformer
+### Task 3 - Decoder-Only Transformer
 - **Architecture:** Token embedding (d=256) + Positional encoding + 4× Transformer decoder layers (8 heads, ff=512)
 - **Causal mask:** Upper triangular — prevents future token leakage
 - **Loss:** Cross-entropy negative log-likelihood
@@ -219,7 +219,7 @@ Run all notebooks **in this exact order**:
 - **Generation:** Top-k sampling (k=40, temperature=0.9)
 - **Training:** 50 epochs, Adam lr=3e-4
 
-### Task 4 — RLHF Fine-Tuning
+### Task 4 - RLHF Fine-Tuning
 - **Base model:** Task 3 best checkpoint
 - **Reward:** Human survey ratings (1–5 scale) from [VALUE] participants
 - **Reward model:** MLP (6 musical features → 1 predicted score)
