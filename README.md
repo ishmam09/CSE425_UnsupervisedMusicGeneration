@@ -114,7 +114,7 @@ music-generation-unsupervised/
 
 ---
 
-## 🚀 How to Run (Google Colab — Step by Step)
+## 🚀 How to Run (Google Colab - Step by Step)
 
 ### Step 1 - Open Google Colab
 Go to [colab.research.google.com](https://colab.research.google.com) and sign in with your Google account.
