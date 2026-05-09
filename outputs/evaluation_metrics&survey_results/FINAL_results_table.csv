@@ -1,0 +1,7 @@
+Model,Pitch Histogram Similarity,Rhythm Diversity,Repetition Ratio,N Files,Human Score (1–5)
+Random Generator,0.3992,0.0579,0.0,5,2.09
+Markov Chain,0.3688,0.138,0.0,5,2.09
+Task 1: LSTM AE,0.7727,0.5391,0.012,5,3.55
+Task 2: VAE,0.1979,0.1086,0.0,8,1.73
+Task 3: Transformer,0.8146,0.0535,0.0289,10,3.36
+Task 4: RLHF,0.6372,0.0519,0.0242,10,3.73
